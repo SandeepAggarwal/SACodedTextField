@@ -7,6 +7,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class ActivationCodeTextField;
+@protocol ActivationCodeTextFieldDelegate <NSObject>
+
+- (void)fillingCompleteForTextField:(ActivationCodeTextField*)textField;
+
+@end
+
 @interface ActivationCodeTextField : UITextField
 
 /**
@@ -22,6 +29,13 @@
  
  */
 @property (nonatomic, strong) NSString* customPlaceholder;
+
+/**
+ 
+ @abstract The delegate method fires when textField gets completely filled
+ 
+ */
+@property (nonatomic,weak) id<ActivationCodeTextFieldDelegate> activationCodeTFDelegate;
 
 /**
  

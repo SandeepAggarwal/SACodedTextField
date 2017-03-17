@@ -101,6 +101,20 @@
     [self.label setTextColor:textColor];
 }
 
+- (void)setText:(NSString *)text
+{
+    [super setText:text];
+    
+    NSInteger textLength = text.length;
+    if (textLength == _maxCodeLength)
+    {
+        if (self.activationCodeTFDelegate && [self.activationCodeTFDelegate respondsToSelector:@selector(fillingCompleteForTextField:)])
+        {
+            [self.activationCodeTFDelegate fillingCompleteForTextField:self];
+        }
+    }
+}
+
 #pragma mark - overridden accessors
 
 - (NSString*)placeholderString
@@ -147,14 +161,18 @@
     }
     
     NSInteger textLength = textField.text.length;
+    NSInteger index;
     if (textLength > _maxCodeLength)
     {
-        textField.text = [textField.text substringToIndex:(_maxCodeLength)];
+        index = _maxCodeLength;
     }
     else
     {
-        [self updateLabel];
+        index = textLength;
     }
+    
+    textField.text = [textField.text substringToIndex:index];// needed to call so that -setText is called
+    [self updateLabel];
 }
 
 - (void)updateLabel
