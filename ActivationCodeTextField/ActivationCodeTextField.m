@@ -28,6 +28,26 @@
         return nil;
     }
     
+    [self commonInit];
+
+    return self;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if (!self)
+    {
+        return nil;
+    }
+    
+    [self commonInit];
+    
+    return self;
+}
+
+- (void)commonInit
+{
     self.space = @" ";
     self.customPlaceholder = @"_" ;
     self.maxCodeLength = 6;
@@ -45,8 +65,6 @@
     self.textAlignment = NSTextAlignmentCenter;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textEditingChanged:) name:UITextFieldTextDidChangeNotification object:self];
-
-    return self;
 }
 
 - (void)layoutSubviews
