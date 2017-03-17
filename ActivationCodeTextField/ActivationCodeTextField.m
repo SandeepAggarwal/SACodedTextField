@@ -306,4 +306,11 @@
 {
     return [NSString stringWithFormat:@"%@%@",string,self.separator];
 }
+
+#pragma mark - dealloc
+
+-(void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 @end
