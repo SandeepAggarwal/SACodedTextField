@@ -116,7 +116,7 @@
     {
         CGFloat totalMaxWidthTakenByContent = [self totalMaxWidthTakenByContent];
         
-        CGFloat widthAllowed = self.label.width;
+        CGFloat widthAllowed = self.label.bounds.size.width;
         CGFloat emptySpaceLeft = widthAllowed - totalMaxWidthTakenByContent;
         NSInteger numGaps = _maxCodeLength - 1;
         CGFloat separatorWidth;
