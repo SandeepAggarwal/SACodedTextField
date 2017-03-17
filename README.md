@@ -24,7 +24,7 @@ CocoaPods
 ---
 You can install `SACodedTextField` through CocoaPods adding the following to your Podfile:
 
-pod 'SACodedTextField'
+    pod 'SACodedTextField'
 
 Usage
 ---
