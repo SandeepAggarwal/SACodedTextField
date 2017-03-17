@@ -27,7 +27,7 @@ A simple text field for building activation code text field like [WhatsApp](http
   s.source       = { :git => "https://github.com/SandeepAggarwal/SACodedTextField.git", :tag => "#{s.version}" }
 
 
-  s.source_files  = "ActivationCodeTextField.{h,m}"
+  s.source_files  = "ActivationCodeTextField/ActivationCodeTextField.{h,m}"
   s.requires_arc = true
 
 end
