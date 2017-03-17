@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/SandeepAggarwal/SACodedTextField"
-  s.screenshots  = "https://github.com/SandeepAggarwal/SACodedTextField/blob/master/Previews/SACodedTF2.gif", "https://github.com/SandeepAggarwal/SACodedTextField/blob/master/Previews/SACodedTF1.gif"
+  s.screenshots  = "https://github.com/SandeepAggarwal/SACodedTextField/raw/master/Previews/SACodedTF2.gif", "https://github.com/SandeepAggarwal/SACodedTextField/raw/master/Previews/SACodedTF1.gif"
 
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
