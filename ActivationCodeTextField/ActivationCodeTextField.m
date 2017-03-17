@@ -20,9 +20,9 @@
 
 #pragma mark - Initialization
 
-- (instancetype)init
+- (instancetype)initWithFrame:(CGRect)frame
 {
-    self = [super init];
+    self = [super initWithFrame:frame];
     if (!self)
     {
         return nil;
