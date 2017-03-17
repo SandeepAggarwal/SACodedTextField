@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1126368CB627318BCE78EE7C /* libPods-ExampleActivationCodeTextfield.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCD8C34405A081A5B789D26 /* libPods-ExampleActivationCodeTextfield.a */; };
 		C1ABD7D21E7BC3E400B78198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ABD7D11E7BC3E400B78198 /* main.m */; };
 		C1ABD7D51E7BC3E400B78198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ABD7D41E7BC3E400B78198 /* AppDelegate.m */; };
 		C1ABD7D81E7BC3E400B78198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ABD7D71E7BC3E400B78198 /* ViewController.m */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6CCD8C34405A081A5B789D26 /* libPods-ExampleActivationCodeTextfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleActivationCodeTextfield.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8135FFF457C8C2A4061C20B1 /* Pods-ExampleActivationCodeTextfield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfield.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfield/Pods-ExampleActivationCodeTextfield.release.xcconfig"; sourceTree = "<group>"; };
+		913F6E06262DB1A863BEE339 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfield.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfield/Pods-ExampleActivationCodeTextfield.debug.xcconfig"; sourceTree = "<group>"; };
 		C1ABD7CD1E7BC3E400B78198 /* ExampleActivationCodeTextfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleActivationCodeTextfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1ABD7D11E7BC3E400B78198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1ABD7D31E7BC3E400B78198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1126368CB627318BCE78EE7C /* libPods-ExampleActivationCodeTextfield.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DEBEEB04EC26610F23E1A25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CCD8C34405A081A5B789D26 /* libPods-ExampleActivationCodeTextfield.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C1ABD7C41E7BC3E300B78198 = {
 			isa = PBXGroup;
 			children = (
 				C1ABD7CF1E7BC3E400B78198 /* ExampleActivationCodeTextfield */,
 				C1ABD7CE1E7BC3E400B78198 /* Products */,
+				E7B9421963537B11A43BE610 /* Pods */,
+				9DEBEEB04EC26610F23E1A25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +94,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E7B9421963537B11A43BE610 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				913F6E06262DB1A863BEE339 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */,
+				8135FFF457C8C2A4061C20B1 /* Pods-ExampleActivationCodeTextfield.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1ABD7E41E7BC3E400B78198 /* Build configuration list for PBXNativeTarget "ExampleActivationCodeTextfield" */;
 			buildPhases = (
+				D846F45F45B6F183E44AB70F /* [CP] Check Pods Manifest.lock */,
 				C1ABD7C91E7BC3E400B78198 /* Sources */,
 				C1ABD7CA1E7BC3E400B78198 /* Frameworks */,
 				C1ABD7CB1E7BC3E400B78198 /* Resources */,
+				591DB472795439B031CEBF24 /* [CP] Embed Pods Frameworks */,
+				C275FDDAB3790B59232AA4E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		591DB472795439B031CEBF24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleActivationCodeTextfield/Pods-ExampleActivationCodeTextfield-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C275FDDAB3790B59232AA4E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleActivationCodeTextfield/Pods-ExampleActivationCodeTextfield-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D846F45F45B6F183E44AB70F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C1ABD7C91E7BC3E400B78198 /* Sources */ = {
@@ -268,6 +343,7 @@
 		};
 		C1ABD7E51E7BC3E400B78198 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913F6E06262DB1A863BEE339 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E49EDX43G4;
@@ -280,6 +356,7 @@
 		};
 		C1ABD7E61E7BC3E400B78198 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8135FFF457C8C2A4061C20B1 /* Pods-ExampleActivationCodeTextfield.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E49EDX43G4;
