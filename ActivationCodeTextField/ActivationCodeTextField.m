@@ -29,9 +29,8 @@
     }
     
     self.space = @" ";
-    self.customPlaceholder = @"_" ; //default value
-    self.maxCodeLength = 6;  //default value
-    
+    self.customPlaceholder = @"_" ;
+    self.maxCodeLength = 6;
     
     UILabel *label = [UILabel new];
     [label setTextColor:[UIColor blackColor]];
@@ -40,6 +39,7 @@
     [self sendSubviewToBack:label];
     
     self.tintColor = [UIColor clearColor]; //to avoid cursor blink
+    
     self.keyboardType = UIKeyboardTypeNumberPad;
     
     self.textAlignment = NSTextAlignmentCenter;
@@ -53,26 +53,29 @@
 {
     [super layoutSubviews];
     
-    CGRect frame = self.label.frame;
-    frame.origin.x = self.bounds.origin.x;
-    frame.origin.y = self.bounds.origin.y;
-    frame.size.width = self.bounds.size.width;
-    frame.size.height = self.bounds.size.height;
-    self.label.frame = frame;
+    self.label.frame = self.bounds;
     
     _separator = nil;
-    [self updateLabelWithPlaceHolderText];
+    [self updateLabel];
 }
 
 #pragma mark - Public Methods
 
 - (CGFloat) minWidthTextField
 {
-    CGFloat totalMaxWidthTakenByContent = [self totalMaxWidthTakenByContent];
-    NSInteger numberOfSpacesRequired = 3 * (_maxCodeLength -1); 
+    if (_maxCodeLength == 0)
+    {
+        return 0.0f;
+    }
+    
+    CGFloat totalMaxWidthCanBeTakenByContent = [self totalMaxWidthCanBeTakenByContent];
+   
+    NSInteger minNumberOfSpaces = 3;
+    NSInteger numGaps = [self numGaps];
+    NSInteger numberOfSpacesRequired = minNumberOfSpaces * numGaps;
     CGFloat totalWidthTakenbySpaces  = [self widthOfString:[self spaceString:self.space withNumberOfSpaces:numberOfSpacesRequired]];
     
-    return (totalMaxWidthTakenByContent + totalWidthTakenbySpaces);
+    return (totalMaxWidthCanBeTakenByContent + totalWidthTakenbySpaces);
 }
 
 #pragma mark - Overridden Methods
@@ -104,7 +107,7 @@
 {
     if (!_placeholderString)
     {
-        _placeholderString = [NSString stringWithFormat:@"%@%@",self.customPlaceholder , self.separator];
+        _placeholderString = [self labelString:self.customPlaceholder];
     }
     
     return _placeholderString;
@@ -114,15 +117,13 @@
 {
     if (!_separator)
     {
-        CGFloat totalMaxWidthTakenByContent = [self totalMaxWidthTakenByContent];
-        
+        CGFloat totalMaxWidthCanBeTakenByContent = [self totalMaxWidthCanBeTakenByContent];
         CGFloat widthAllowed = self.label.bounds.size.width;
-        CGFloat emptySpaceLeft = widthAllowed - totalMaxWidthTakenByContent;
-        NSInteger numGaps = _maxCodeLength - 1;
-        CGFloat separatorWidth;
+        CGFloat emptySpaceLeft = widthAllowed - totalMaxWidthCanBeTakenByContent;
         if (emptySpaceLeft > 0)
         {
-            separatorWidth = emptySpaceLeft/(numGaps * 1.0f);
+            NSInteger numGaps = [self numGaps];
+            CGFloat separatorWidth = emptySpaceLeft/(numGaps * 1.0f);
             _separator = [self spaceString: self.space withWidth:separatorWidth];
         }
         else
@@ -152,11 +153,11 @@
     }
     else
     {
-        [self updateLabelWithPlaceHolderText];
+        [self updateLabel];
     }
 }
 
-- (void)updateLabelWithPlaceHolderText
+- (void)updateLabel
 {
     NSString* textFieldText = self.text;
     NSInteger textLength = textFieldText.length;
@@ -169,7 +170,7 @@
     NSArray<NSString*>*  numbersArray = [self numbersFromString:textFieldText];
     for (NSString* numberString in numbersArray)
     {
-        [labelText appendString:[NSString stringWithFormat:@"%@%@",numberString,self.separator]];
+        [labelText appendString:[self labelString:numberString]];
     }
     
     
@@ -198,19 +199,21 @@
     return array;
 }
 
-- (CGFloat)totalMaxWidthTakenByContent
+- (CGFloat)totalMaxWidthCanBeTakenByContent
 {
     CGFloat maxWidth = [self maxWidthTakenByAnyNumber];
-    
-    CGFloat customPlaceholderWidth = [self widthOfString:self.customPlaceholder];
+    CGFloat customPlaceholderWidth = [self widthTakenByCustomPlaceholder];
     if (customPlaceholderWidth > maxWidth)
     {
         maxWidth = customPlaceholderWidth;
     }
-    
     CGFloat totalMaxWidthTakenByContent = maxWidth * _maxCodeLength;
-    
     return totalMaxWidthTakenByContent;
+}
+
+- (CGFloat)widthTakenByCustomPlaceholder
+{
+    return [self widthOfString:self.customPlaceholder];
 }
 
 - (CGFloat)maxWidthTakenByAnyNumber
@@ -237,7 +240,6 @@
     NSDictionary *attr = [NSDictionary dictionaryWithObject:[self font]
                                                      forKey:NSFontAttributeName];
     CGSize stringSize = [string sizeWithAttributes:attr];
-   
     return stringSize.width;
 }
 
@@ -255,11 +257,17 @@
 - (NSString*)spaceString:(NSString*)spaceString withWidth:(CGFloat)width
 {
     CGFloat spaceStringwidth = [self widthOfString:spaceString];
-    
     NSInteger numberOfSpacesRequired = floorf(width/spaceStringwidth);
-    
     return [self spaceString:spaceString withNumberOfSpaces:numberOfSpacesRequired];
 }
 
+- (NSInteger)numGaps
+{
+    return (_maxCodeLength - 1);
+}
 
+- (NSString*)labelString:(NSString*)string
+{
+    return [NSString stringWithFormat:@"%@%@",string,self.separator];
+}
 @end
