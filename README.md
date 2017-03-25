@@ -1,11 +1,14 @@
 SACodedTextField
 ===============
 
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SACodedTextField.svg)](https://img.shields.io/cocoapods/v/SACodedTextField.svg)
-[![Platform](https://img.shields.io/cocoapods/p/SACodedTextField.svg?style=flat)](http://cocoadocs.org/docsets/SACodedTextField)
-[![License](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
-A simple text field for building 'activation code text field' like [WhatsApp](https://www.whatsapp.com/) for iOS
+[![Platform](https://img.shields.io/cocoapods/p/SACodedTextField.svg?style=flat)](http://cocoadocs.org/docsets/SACodedTextField)
+![Carthage compatible](https://img.shields.io/badge/carthage-compatible-green.svg)
+![CocoaPods Compatible](https://img.shields.io/badge/cocoapods-compatible-green.svg)
+[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/sandeepCool77)
+
+
+A simple text field for building 'activation code text field' inspired by [WhatsApp](https://www.whatsapp.com/) for iOS
 
 Preview
 ---
@@ -20,11 +23,24 @@ Preview
 ![gif2](Previews/SACodedTF1.gif)
 
 
-CocoaPods
+Installation
 ---
-You can install `SACodedTextField` through CocoaPods adding the following to your Podfile:
 
-    pod 'SACodedTextField'
+### Carthage
+
+If you're using [Carthage](https://github.com/Carthage/Carthage), add the following dependency to your `Cartfile`:
+
+```none
+github "SandeepAggarwal/SACodedTextField"
+```
+
+### CocoaPods 
+
+If you're using [CocoaPods](http://cocoapods.org), add the following dependency to your `Podfile`:
+
+```none
+pod 'SACodedTextField'
+```
 
 Usage
 ---
@@ -76,7 +92,7 @@ textField.activationCodeTFDelegate = self;
 
 Requirements
 ---
-- iOS 7 or higher.
+- iOS 8 or higher.
 - Automatic Reference Counting (ARC).
 
 License
