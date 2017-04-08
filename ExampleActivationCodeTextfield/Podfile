@@ -2,6 +2,10 @@ platform :ios, '8.0'
 
 target 'ExampleActivationCodeTextfield' do
 
-pod 'SACodedTextField', :path => '../SACodedTextField.podspec'
+    pod 'SACodedTextField', :path => '../SACodedTextField.podspec'
+    
+    target 'ExampleActivationCodeTextfieldTests' do
+        inherit! :search_paths  # to add header search paths from target to test
+    end
 
 end

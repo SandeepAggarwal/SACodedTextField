@@ -8,18 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		1126368CB627318BCE78EE7C /* libPods-ExampleActivationCodeTextfield.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCD8C34405A081A5B789D26 /* libPods-ExampleActivationCodeTextfield.a */; };
+		758175AB7296F5F976BE723F /* libPods-ExampleActivationCodeTextfieldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E625FB5F916D42C284445F /* libPods-ExampleActivationCodeTextfieldTests.a */; };
 		C1ABD7D21E7BC3E400B78198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ABD7D11E7BC3E400B78198 /* main.m */; };
 		C1ABD7D51E7BC3E400B78198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ABD7D41E7BC3E400B78198 /* AppDelegate.m */; };
 		C1ABD7D81E7BC3E400B78198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ABD7D71E7BC3E400B78198 /* ViewController.m */; };
 		C1ABD7DB1E7BC3E400B78198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ABD7D91E7BC3E400B78198 /* Main.storyboard */; };
 		C1ABD7DD1E7BC3E400B78198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1ABD7DC1E7BC3E400B78198 /* Assets.xcassets */; };
 		C1ABD7E01E7BC3E400B78198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ABD7DE1E7BC3E400B78198 /* LaunchScreen.storyboard */; };
+		C1ACB0DE1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ACB0DD1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1ACB0E01E98F5A500A62308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1ABD7C51E7BC3E300B78198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1ABD7CC1E7BC3E400B78198;
+			remoteInfo = ExampleActivationCodeTextfield;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6CCD8C34405A081A5B789D26 /* libPods-ExampleActivationCodeTextfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleActivationCodeTextfield.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8135FFF457C8C2A4061C20B1 /* Pods-ExampleActivationCodeTextfield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfield.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfield/Pods-ExampleActivationCodeTextfield.release.xcconfig"; sourceTree = "<group>"; };
 		913F6E06262DB1A863BEE339 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfield.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfield/Pods-ExampleActivationCodeTextfield.debug.xcconfig"; sourceTree = "<group>"; };
+		AADEE3CC33E582584381C834 /* Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfieldTests/Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1ABD7CD1E7BC3E400B78198 /* ExampleActivationCodeTextfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleActivationCodeTextfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1ABD7D11E7BC3E400B78198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1ABD7D31E7BC3E400B78198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,6 +43,11 @@
 		C1ABD7DC1E7BC3E400B78198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1ABD7DF1E7BC3E400B78198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1ABD7E11E7BC3E400B78198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1ACB0DB1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleActivationCodeTextfieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1ACB0DD1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleActivationCodeTextfieldTests.m; sourceTree = "<group>"; };
+		C1ACB0DF1E98F5A500A62308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE3FEDC3B4BE166569394B9 /* Pods-ExampleActivationCodeTextfieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfieldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfieldTests/Pods-ExampleActivationCodeTextfieldTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8E625FB5F916D42C284445F /* libPods-ExampleActivationCodeTextfieldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleActivationCodeTextfieldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1ACB0D81E98F5A500A62308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758175AB7296F5F976BE723F /* libPods-ExampleActivationCodeTextfieldTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				6CCD8C34405A081A5B789D26 /* libPods-ExampleActivationCodeTextfield.a */,
+				F8E625FB5F916D42C284445F /* libPods-ExampleActivationCodeTextfieldTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -56,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				C1ABD7CF1E7BC3E400B78198 /* ExampleActivationCodeTextfield */,
+				C1ACB0DC1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests */,
 				C1ABD7CE1E7BC3E400B78198 /* Products */,
 				E7B9421963537B11A43BE610 /* Pods */,
 				9DEBEEB04EC26610F23E1A25 /* Frameworks */,
@@ -66,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				C1ABD7CD1E7BC3E400B78198 /* ExampleActivationCodeTextfield.app */,
+				C1ACB0DB1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,11 +123,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C1ACB0DC1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1ACB0DD1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.m */,
+				C1ACB0DF1E98F5A500A62308 /* Info.plist */,
+			);
+			path = ExampleActivationCodeTextfieldTests;
+			sourceTree = "<group>";
+		};
 		E7B9421963537B11A43BE610 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				913F6E06262DB1A863BEE339 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */,
 				8135FFF457C8C2A4061C20B1 /* Pods-ExampleActivationCodeTextfield.release.xcconfig */,
+				AADEE3CC33E582584381C834 /* Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig */,
+				ECE3FEDC3B4BE166569394B9 /* Pods-ExampleActivationCodeTextfieldTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -126,6 +166,27 @@
 			productReference = C1ABD7CD1E7BC3E400B78198 /* ExampleActivationCodeTextfield.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C1ACB0DA1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1ACB0E41E98F5A500A62308 /* Build configuration list for PBXNativeTarget "ExampleActivationCodeTextfieldTests" */;
+			buildPhases = (
+				342360B7E4931C3ADC025E83 /* [CP] Check Pods Manifest.lock */,
+				C1ACB0D71E98F5A500A62308 /* Sources */,
+				C1ACB0D81E98F5A500A62308 /* Frameworks */,
+				C1ACB0D91E98F5A500A62308 /* Resources */,
+				34058813272F37EF5FFB840F /* [CP] Embed Pods Frameworks */,
+				81D5C1E1885FD4277E09BF28 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1ACB0E11E98F5A500A62308 /* PBXTargetDependency */,
+			);
+			name = ExampleActivationCodeTextfieldTests;
+			productName = ExampleActivationCodeTextfieldTests;
+			productReference = C1ACB0DB1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -138,6 +199,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = E49EDX43G4;
 						ProvisioningStyle = Automatic;
+					};
+					C1ACB0DA1E98F5A500A62308 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1ABD7CC1E7BC3E400B78198;
 					};
 				};
 			};
@@ -155,6 +221,7 @@
 			projectRoot = "";
 			targets = (
 				C1ABD7CC1E7BC3E400B78198 /* ExampleActivationCodeTextfield */,
+				C1ACB0DA1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests */,
 			);
 		};
 /* End PBXProject section */
@@ -170,9 +237,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1ACB0D91E98F5A500A62308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		34058813272F37EF5FFB840F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleActivationCodeTextfieldTests/Pods-ExampleActivationCodeTextfieldTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		342360B7E4931C3ADC025E83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		591DB472795439B031CEBF24 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,6 +290,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleActivationCodeTextfield/Pods-ExampleActivationCodeTextfield-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D5C1E1885FD4277E09BF28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleActivationCodeTextfieldTests/Pods-ExampleActivationCodeTextfieldTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C275FDDAB3790B59232AA4E8 /* [CP] Copy Pods Resources */ = {
@@ -231,7 +350,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1ACB0D71E98F5A500A62308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1ACB0DE1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1ACB0E11E98F5A500A62308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1ABD7CC1E7BC3E400B78198 /* ExampleActivationCodeTextfield */;
+			targetProxy = C1ACB0E01E98F5A500A62308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C1ABD7D91E7BC3E400B78198 /* Main.storyboard */ = {
@@ -347,6 +482,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E49EDX43G4;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				INFOPLIST_FILE = ExampleActivationCodeTextfield/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SandeepAggarwal.ExampleActivationCodeTextfield;
@@ -360,10 +497,38 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E49EDX43G4;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				INFOPLIST_FILE = ExampleActivationCodeTextfield/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SandeepAggarwal.ExampleActivationCodeTextfield;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1ACB0E21E98F5A500A62308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AADEE3CC33E582584381C834 /* Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExampleActivationCodeTextfieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SandeepAggarwal.ExampleActivationCodeTextfieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleActivationCodeTextfield.app/ExampleActivationCodeTextfield";
+			};
+			name = Debug;
+		};
+		C1ACB0E31E98F5A500A62308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE3FEDC3B4BE166569394B9 /* Pods-ExampleActivationCodeTextfieldTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExampleActivationCodeTextfieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SandeepAggarwal.ExampleActivationCodeTextfieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleActivationCodeTextfield.app/ExampleActivationCodeTextfield";
 			};
 			name = Release;
 		};
@@ -386,6 +551,16 @@
 				C1ABD7E61E7BC3E400B78198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1ACB0E41E98F5A500A62308 /* Build configuration list for PBXNativeTarget "ExampleActivationCodeTextfieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1ACB0E21E98F5A500A62308 /* Debug */,
+				C1ACB0E31E98F5A500A62308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
