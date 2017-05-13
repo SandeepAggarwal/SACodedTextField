@@ -52,11 +52,14 @@
     self.customPlaceholder = @"_" ;
     self.maxCodeLength = 6;
     
+    self.isAccessibilityElement = NO; // so that its subviews can be accessible
+    
     UILabel *label = [UILabel new];
+    [label setIsAccessibilityElement:YES];
+    label.accessibilityIdentifier = @"ACTPlaceholderLabel";
     [label setTextColor:[UIColor blackColor]];
     self.label = label;
     [self addSubview:label];
-    [self sendSubviewToBack:label];
     
     self.tintColor = [UIColor clearColor]; //to avoid cursor blink
     
@@ -215,6 +218,7 @@
         [labelText appendString:self.placeholderString];
     }
     [self.label setText:labelText];
+    self.label.accessibilityValue = labelText; //so that in UITests its text value can be compared
 }
 
 - (NSArray<NSString*>*)numbersFromString:(NSString*)string
