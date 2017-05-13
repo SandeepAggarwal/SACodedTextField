@@ -18,6 +18,10 @@
 
 @end
 
+@interface ActivationCodeTextField ()
+@property (nonatomic, strong) UILabel *label;
+@end
+
 @implementation ExampleActivationCodeTextfieldTests
 
 - (void)setUp
@@ -83,6 +87,13 @@
     [self.textField setText:@"123"];
     [self.textField setText:@"456"];
     XCTAssertTrue([self.textField.text isEqualToString:@"456"]);
+}
+
+- (void)testFont
+{
+    UIFont* font = [UIFont systemFontOfSize:12];
+    [self.textField setFont:font];
+    XCTAssertTrue([self.textField.label.font isEqual:font]);
 }
 
 - (void)testWidthForCodeLengthZero
