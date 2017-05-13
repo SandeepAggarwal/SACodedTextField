@@ -2,4 +2,4 @@ language: objective-c
 xcode_sdk: iphonesimulator9.3
 
 xcode_workspace: "ExampleActivationCodeTextfield/ExampleActivationCodeTextfield.xcworkspace"
-xcode_scheme: "SACodedTextField" 
+xcode_scheme: "ExampleActivationCodeTextfield" 
