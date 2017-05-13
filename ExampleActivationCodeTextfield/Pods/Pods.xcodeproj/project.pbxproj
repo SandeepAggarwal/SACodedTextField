@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1326D6D8234D5E82BDBC1C073991F87B /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3E71182D80FCA0ECAB88DF4B3DDDC1 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-dummy.m */; };
 		4C8A495B0EF2C98981119C650D670CF5 /* ActivationCodeTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE8B6D890FEE41604F78E9A0A365466 /* ActivationCodeTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		562DECF642BFB9E89B96D8C01853D9D8 /* ActivationCodeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C2EB82740D71401FFF43728F39D5C0 /* ActivationCodeTextField.m */; };
 		74BD69F227DF39C7DBDC1A94C3F17AED /* SACodedTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AA05915132926B0C413A139FF76E0B /* SACodedTextField-dummy.m */; };
 		9AD8D308BD8C2BFBB154C7DB589657D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		ABE85C81FA32A7A9E26A340E09ED3998 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		BB45FD512B2C0B5AC117BA26ACC94FC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		C625297DAA7A192A6BEFB1945FCC091E /* Pods-ExampleActivationCodeTextfield-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9B95228D92508F9C47C6D0C9C93184 /* Pods-ExampleActivationCodeTextfield-dummy.m */; };
-		CBB6E2919F4229C021FE876D94E9B00E /* Pods-ExampleActivationCodeTextfieldTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4271EA96B382384FEF4D1413FB5DBA8 /* Pods-ExampleActivationCodeTextfieldTests-dummy.m */; };
+		C625297DAA7A192A6BEFB1945FCC091E /* Pods-ExampleActivationCodeTextfield-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80626BDBD2D057ED8D747391776AE8B8 /* Pods-ExampleActivationCodeTextfield-dummy.m */; };
+		CBB6E2919F4229C021FE876D94E9B00E /* Pods-ExampleActivationCodeTextfieldTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 745427D910C7F824B118DFB654048F66 /* Pods-ExampleActivationCodeTextfieldTests-dummy.m */; };
+		DEF13200810E87ACC75F1126EB34CBEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		E59F75D71723521DC50D1A10AAFCFEC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		42344099B6EB155015343E59187046EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36201141CA8EC0A82D7FF254C03DA71;
+			remoteInfo = SACodedTextField;
+		};
 		F816323DDC5222C1055904EB6AFE9DC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -29,31 +38,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01BA480E3E4AD5ACC33B4D4E6E4260F6 /* Pods-ExampleActivationCodeTextfieldTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleActivationCodeTextfieldTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		033A84E0ABD08F96FFD34741A84A1ED8 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0D44D482DE8F177F8A731986F6E03729 /* SACodedTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SACodedTextField-prefix.pch"; sourceTree = "<group>"; };
-		0E9B95228D92508F9C47C6D0C9C93184 /* Pods-ExampleActivationCodeTextfield-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleActivationCodeTextfield-dummy.m"; sourceTree = "<group>"; };
-		0F370C83BF97D5565E8956FC09774D33 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfield.debug.xcconfig"; sourceTree = "<group>"; };
-		259E5CCA113CF11AA2507F49E21DB9A8 /* Pods-ExampleActivationCodeTextfield-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleActivationCodeTextfield-acknowledgements.markdown"; sourceTree = "<group>"; };
-		285B18F0DB58C64284616E90C44E552F /* Pods-ExampleActivationCodeTextfield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfield.release.xcconfig"; sourceTree = "<group>"; };
-		2BCC0810C947B0C53C4ED2E79616B3AD /* Pods-ExampleActivationCodeTextfieldTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleActivationCodeTextfieldTests-frameworks.sh"; sourceTree = "<group>"; };
-		2D268462C75E4D43016357B3C7DFEBAD /* Pods-ExampleActivationCodeTextfieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfieldTests.release.xcconfig"; sourceTree = "<group>"; };
-		5318DD6D47F3C40EA31D7098A6BB10DE /* libPods-ExampleActivationCodeTextfieldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleActivationCodeTextfieldTests.a"; path = "libPods-ExampleActivationCodeTextfieldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DC523C3D9EA9C0F8585F7893665F476 /* Pods-ExampleActivationCodeTextfield-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleActivationCodeTextfield-frameworks.sh"; sourceTree = "<group>"; };
+		1EA7E4306C1407B4177FF06E141C1C9E /* Pods-ExampleActivationCodeTextfieldTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleActivationCodeTextfieldTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		54FF80D5973B42C10DD43F77816000C7 /* Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5781C469E3190FBC5AB3834B813CF055 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-resources.sh"; sourceTree = "<group>"; };
+		5C82FB5CC395914F451986696BAD6137 /* Pods-ExampleActivationCodeTextfieldTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleActivationCodeTextfieldTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66FEB5FE5CB71FB514EF3CE8578F8C70 /* Pods-ExampleActivationCodeTextfieldTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleActivationCodeTextfieldTests-resources.sh"; sourceTree = "<group>"; };
+		6D9575E13DE144F48E6F16F61B56D20C /* Pods-ExampleActivationCodeTextfield-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleActivationCodeTextfield-frameworks.sh"; sourceTree = "<group>"; };
+		6EA9C01EBACBF7FB150DC415B65B04F2 /* Pods-ExampleActivationCodeTextfield-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleActivationCodeTextfield-resources.sh"; sourceTree = "<group>"; };
+		73F140AEF920B6B58621A6A8E1036835 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		745427D910C7F824B118DFB654048F66 /* Pods-ExampleActivationCodeTextfieldTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleActivationCodeTextfieldTests-dummy.m"; sourceTree = "<group>"; };
+		7AE51C395004BB7C2BAEB92926EF4B89 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7D142CBB6056EC960D1F70DE71D40A52 /* Pods-ExampleActivationCodeTextfield-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleActivationCodeTextfield-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8A79421B277DB0B0554456A1F43A05D1 /* Pods-ExampleActivationCodeTextfield-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleActivationCodeTextfield-resources.sh"; sourceTree = "<group>"; };
+		80626BDBD2D057ED8D747391776AE8B8 /* Pods-ExampleActivationCodeTextfield-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleActivationCodeTextfield-dummy.m"; sourceTree = "<group>"; };
+		8094C90CDA90BCF34F66A363FF40DA2C /* Pods-ExampleActivationCodeTextfieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfieldTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C22BEDA8FB8399939BCCFD2830F95C5 /* Pods-ExampleActivationCodeTextfieldTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleActivationCodeTextfieldTests-frameworks.sh"; sourceTree = "<group>"; };
+		922537CBA13D0E15866E2690BAB627DE /* Pods-ExampleActivationCodeTextfield-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleActivationCodeTextfield-acknowledgements.plist"; sourceTree = "<group>"; };
+		933C33A0E10D2942E2E3183E6EB16618 /* Pods-ExampleActivationCodeTextfieldTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleActivationCodeTextfieldTests-resources.sh"; sourceTree = "<group>"; };
+		9341C235E300554D77F350D4384C5272 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E04303C421520DE3FA1397E72DA52A /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6AA05915132926B0C413A139FF76E0B /* SACodedTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SACodedTextField-dummy.m"; sourceTree = "<group>"; };
-		B13BE842A4D7A6054CF6FE673AFD9297 /* libPods-ExampleActivationCodeTextfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleActivationCodeTextfield.a"; path = "libPods-ExampleActivationCodeTextfield.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9F849ED1F0E93769B4A8E2CA247CAE8 /* Pods-ExampleActivationCodeTextfieldTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleActivationCodeTextfieldTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BFAA55776AAEDF2243A13BC515960F60 /* libSACodedTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSACodedTextField.a; path = libSACodedTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08A2D65051CE3AE0DA7F1D84F7BECBB /* Pods-ExampleActivationCodeTextfield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfield.release.xcconfig"; sourceTree = "<group>"; };
+		B0FF85D3EFB9C4F6379F986012664759 /* libPods-ExampleActivationCodeTextfieldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleActivationCodeTextfieldTests.a"; path = "libPods-ExampleActivationCodeTextfieldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3E71182D80FCA0ECAB88DF4B3DDDC1 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-dummy.m"; sourceTree = "<group>"; };
 		D4C2EB82740D71401FFF43728F39D5C0 /* ActivationCodeTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ActivationCodeTextField.m; sourceTree = "<group>"; };
-		E4271EA96B382384FEF4D1413FB5DBA8 /* Pods-ExampleActivationCodeTextfieldTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleActivationCodeTextfieldTests-dummy.m"; sourceTree = "<group>"; };
+		DA4926FD29E7AC1A4F63CF77658AF9FD /* libSACodedTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSACodedTextField.a; path = libSACodedTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E549FEB4F2C9443B7FAA6F4068CAFB00 /* libPods-ExampleActivationCodeTextfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleActivationCodeTextfield.a"; path = "libPods-ExampleActivationCodeTextfield.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE440CB9F5EA3BFBF658C2B022645B45 /* SACodedTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SACodedTextField.xcconfig; sourceTree = "<group>"; };
-		F1EA2CC5467F47779C11468BC9090411 /* Pods-ExampleActivationCodeTextfield-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleActivationCodeTextfield-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE73111A7E422BD6E7915B834CFE312D /* libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a"; path = "libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E790265012410E1F82E7BC9FB8E9C0 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfield.debug.xcconfig"; sourceTree = "<group>"; };
 		FEE8B6D890FEE41604F78E9A0A365466 /* ActivationCodeTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ActivationCodeTextField.h; sourceTree = "<group>"; };
-		FFB64E8012B2BE01C322738FDD6015FB /* Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +91,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		863EB8EFDE63004BF217C930F3D82DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF13200810E87ACC75F1126EB34CBEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE3D3DA55AE4C011DD12FA0A9194F98B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,16 +110,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19C884BD78B04A4AE5AB3965A71A02DE /* Pods-ExampleActivationCodeTextfield */ = {
+		101D4645DC9EEE5FC8E2F086A818A0FA /* Pods-ExampleActivationCodeTextfield */ = {
 			isa = PBXGroup;
 			children = (
-				259E5CCA113CF11AA2507F49E21DB9A8 /* Pods-ExampleActivationCodeTextfield-acknowledgements.markdown */,
-				F1EA2CC5467F47779C11468BC9090411 /* Pods-ExampleActivationCodeTextfield-acknowledgements.plist */,
-				0E9B95228D92508F9C47C6D0C9C93184 /* Pods-ExampleActivationCodeTextfield-dummy.m */,
-				5DC523C3D9EA9C0F8585F7893665F476 /* Pods-ExampleActivationCodeTextfield-frameworks.sh */,
-				8A79421B277DB0B0554456A1F43A05D1 /* Pods-ExampleActivationCodeTextfield-resources.sh */,
-				0F370C83BF97D5565E8956FC09774D33 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */,
-				285B18F0DB58C64284616E90C44E552F /* Pods-ExampleActivationCodeTextfield.release.xcconfig */,
+				7D142CBB6056EC960D1F70DE71D40A52 /* Pods-ExampleActivationCodeTextfield-acknowledgements.markdown */,
+				922537CBA13D0E15866E2690BAB627DE /* Pods-ExampleActivationCodeTextfield-acknowledgements.plist */,
+				80626BDBD2D057ED8D747391776AE8B8 /* Pods-ExampleActivationCodeTextfield-dummy.m */,
+				6D9575E13DE144F48E6F16F61B56D20C /* Pods-ExampleActivationCodeTextfield-frameworks.sh */,
+				6EA9C01EBACBF7FB150DC415B65B04F2 /* Pods-ExampleActivationCodeTextfield-resources.sh */,
+				F2E790265012410E1F82E7BC9FB8E9C0 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */,
+				B08A2D65051CE3AE0DA7F1D84F7BECBB /* Pods-ExampleActivationCodeTextfield.release.xcconfig */,
 			);
 			name = "Pods-ExampleActivationCodeTextfield";
 			path = "Target Support Files/Pods-ExampleActivationCodeTextfield";
@@ -111,6 +136,21 @@
 			path = "ExampleActivationCodeTextfield/Pods/Target Support Files/SACodedTextField";
 			sourceTree = "<group>";
 		};
+		24CA8F9E43EB112EEC7260425743C9E5 /* Pods-ExampleActivationCodeTextfieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C82FB5CC395914F451986696BAD6137 /* Pods-ExampleActivationCodeTextfieldTests-acknowledgements.markdown */,
+				1EA7E4306C1407B4177FF06E141C1C9E /* Pods-ExampleActivationCodeTextfieldTests-acknowledgements.plist */,
+				745427D910C7F824B118DFB654048F66 /* Pods-ExampleActivationCodeTextfieldTests-dummy.m */,
+				8C22BEDA8FB8399939BCCFD2830F95C5 /* Pods-ExampleActivationCodeTextfieldTests-frameworks.sh */,
+				933C33A0E10D2942E2E3183E6EB16618 /* Pods-ExampleActivationCodeTextfieldTests-resources.sh */,
+				54FF80D5973B42C10DD43F77816000C7 /* Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig */,
+				8094C90CDA90BCF34F66A363FF40DA2C /* Pods-ExampleActivationCodeTextfieldTests.release.xcconfig */,
+			);
+			name = "Pods-ExampleActivationCodeTextfieldTests";
+			path = "Target Support Files/Pods-ExampleActivationCodeTextfieldTests";
+			sourceTree = "<group>";
+		};
 		35723488A1723F0920869BC2FA27DDEC /* ActivationCodeTextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,12 +161,13 @@
 			path = ActivationCodeTextField;
 			sourceTree = "<group>";
 		};
-		3C10B9350D306129E0B87FA4FA9D51DB /* Products */ = {
+		3646A44F8C9DBC4629604F01FF42FA5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B13BE842A4D7A6054CF6FE673AFD9297 /* libPods-ExampleActivationCodeTextfield.a */,
-				5318DD6D47F3C40EA31D7098A6BB10DE /* libPods-ExampleActivationCodeTextfieldTests.a */,
-				BFAA55776AAEDF2243A13BC515960F60 /* libSACodedTextField.a */,
+				E549FEB4F2C9443B7FAA6F4068CAFB00 /* libPods-ExampleActivationCodeTextfield.a */,
+				EE73111A7E422BD6E7915B834CFE312D /* libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a */,
+				B0FF85D3EFB9C4F6379F986012664759 /* libPods-ExampleActivationCodeTextfieldTests.a */,
+				DA4926FD29E7AC1A4F63CF77658AF9FD /* libSACodedTextField.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,19 +180,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		52495B5B36CF24E61D25A88BD47EC0BA /* Pods-ExampleActivationCodeTextfieldTests */ = {
+		6609A3B18568C0E4D23054222DB309C9 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B9F849ED1F0E93769B4A8E2CA247CAE8 /* Pods-ExampleActivationCodeTextfieldTests-acknowledgements.markdown */,
-				01BA480E3E4AD5ACC33B4D4E6E4260F6 /* Pods-ExampleActivationCodeTextfieldTests-acknowledgements.plist */,
-				E4271EA96B382384FEF4D1413FB5DBA8 /* Pods-ExampleActivationCodeTextfieldTests-dummy.m */,
-				2BCC0810C947B0C53C4ED2E79616B3AD /* Pods-ExampleActivationCodeTextfieldTests-frameworks.sh */,
-				66FEB5FE5CB71FB514EF3CE8578F8C70 /* Pods-ExampleActivationCodeTextfieldTests-resources.sh */,
-				FFB64E8012B2BE01C322738FDD6015FB /* Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig */,
-				2D268462C75E4D43016357B3C7DFEBAD /* Pods-ExampleActivationCodeTextfieldTests.release.xcconfig */,
+				73F140AEF920B6B58621A6A8E1036835 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-acknowledgements.markdown */,
+				9341C235E300554D77F350D4384C5272 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-acknowledgements.plist */,
+				BE3E71182D80FCA0ECAB88DF4B3DDDC1 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-dummy.m */,
+				7AE51C395004BB7C2BAEB92926EF4B89 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-frameworks.sh */,
+				5781C469E3190FBC5AB3834B813CF055 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-resources.sh */,
+				94E04303C421520DE3FA1397E72DA52A /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.debug.xcconfig */,
+				033A84E0ABD08F96FFD34741A84A1ED8 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.release.xcconfig */,
 			);
-			name = "Pods-ExampleActivationCodeTextfieldTests";
-			path = "Target Support Files/Pods-ExampleActivationCodeTextfieldTests";
+			name = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests";
+			path = "Target Support Files/Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -160,18 +201,9 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				8173CFE9E8715346F4DCD4676E2EE5BE /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				3C10B9350D306129E0B87FA4FA9D51DB /* Products */,
-				7DC1B421FC78CF2B2AFE8358F8A92E46 /* Targets Support Files */,
+				3646A44F8C9DBC4629604F01FF42FA5E /* Products */,
+				90FEE092F4E8BE5566E71105A750F1C8 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7DC1B421FC78CF2B2AFE8358F8A92E46 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				19C884BD78B04A4AE5AB3965A71A02DE /* Pods-ExampleActivationCodeTextfield */,
-				52495B5B36CF24E61D25A88BD47EC0BA /* Pods-ExampleActivationCodeTextfieldTests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		8173CFE9E8715346F4DCD4676E2EE5BE /* Development Pods */ = {
@@ -180,6 +212,16 @@
 				B979507FC4AFC5E024ED4EBE5B985592 /* SACodedTextField */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		90FEE092F4E8BE5566E71105A750F1C8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				101D4645DC9EEE5FC8E2F086A818A0FA /* Pods-ExampleActivationCodeTextfield */,
+				6609A3B18568C0E4D23054222DB309C9 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests */,
+				24CA8F9E43EB112EEC7260425743C9E5 /* Pods-ExampleActivationCodeTextfieldTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		B979507FC4AFC5E024ED4EBE5B985592 /* SACodedTextField */ = {
@@ -229,7 +271,24 @@
 			);
 			name = "Pods-ExampleActivationCodeTextfield";
 			productName = "Pods-ExampleActivationCodeTextfield";
-			productReference = B13BE842A4D7A6054CF6FE673AFD9297 /* libPods-ExampleActivationCodeTextfield.a */;
+			productReference = E549FEB4F2C9443B7FAA6F4068CAFB00 /* libPods-ExampleActivationCodeTextfield.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		153F123D5CD8DA83DF79B31638D75B6A /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A401D326E3F680517259EA639B7FCB87 /* Build configuration list for PBXNativeTarget "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests" */;
+			buildPhases = (
+				4D28AA844C67E832F305A8DB5E23FAA7 /* Sources */,
+				863EB8EFDE63004BF217C930F3D82DEE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B20FAD946E048CE60E701A231F3A6B /* PBXTargetDependency */,
+			);
+			name = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests";
+			productName = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests";
+			productReference = EE73111A7E422BD6E7915B834CFE312D /* libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		5ED6DAB649AC959FAC550DF675E362AB /* Pods-ExampleActivationCodeTextfieldTests */ = {
@@ -245,7 +304,7 @@
 			);
 			name = "Pods-ExampleActivationCodeTextfieldTests";
 			productName = "Pods-ExampleActivationCodeTextfieldTests";
-			productReference = 5318DD6D47F3C40EA31D7098A6BB10DE /* libPods-ExampleActivationCodeTextfieldTests.a */;
+			productReference = B0FF85D3EFB9C4F6379F986012664759 /* libPods-ExampleActivationCodeTextfieldTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		D36201141CA8EC0A82D7FF254C03DA71 /* SACodedTextField */ = {
@@ -262,7 +321,7 @@
 			);
 			name = SACodedTextField;
 			productName = SACodedTextField;
-			productReference = BFAA55776AAEDF2243A13BC515960F60 /* libSACodedTextField.a */;
+			productReference = DA4926FD29E7AC1A4F63CF77658AF9FD /* libSACodedTextField.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -282,11 +341,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3C10B9350D306129E0B87FA4FA9D51DB /* Products */;
+			productRefGroup = 3646A44F8C9DBC4629604F01FF42FA5E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0BC9927A73B0DD53F41C434DE66EDD28 /* Pods-ExampleActivationCodeTextfield */,
+				153F123D5CD8DA83DF79B31638D75B6A /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests */,
 				5ED6DAB649AC959FAC550DF675E362AB /* Pods-ExampleActivationCodeTextfieldTests */,
 				D36201141CA8EC0A82D7FF254C03DA71 /* SACodedTextField */,
 			);
@@ -310,6 +370,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D28AA844C67E832F305A8DB5E23FAA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1326D6D8234D5E82BDBC1C073991F87B /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E553BD8357A984D1B4F6F6D4BF7C2E67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,6 +390,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		33B20FAD946E048CE60E701A231F3A6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SACodedTextField;
+			target = D36201141CA8EC0A82D7FF254C03DA71 /* SACodedTextField */;
+			targetProxy = 42344099B6EB155015343E59187046EF /* PBXContainerItemProxy */;
+		};
 		B087EE54497779F99E0D1A78483A9CA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SACodedTextField;
@@ -377,7 +451,30 @@
 		};
 		1AA068DE950BDD5B54B38ED6C7FABBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F370C83BF97D5565E8956FC09774D33 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */;
+			baseConfigurationReference = F2E790265012410E1F82E7BC9FB8E9C0 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		22B547EB6EAD041C1C9D711D10ED30DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E04303C421520DE3FA1397E72DA52A /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -440,7 +537,7 @@
 		};
 		7E072C5F613793171E2410ABFAA30F74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFB64E8012B2BE01C322738FDD6015FB /* Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig */;
+			baseConfigurationReference = 54FF80D5973B42C10DD43F77816000C7 /* Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -463,7 +560,30 @@
 		};
 		9E7E4E3A43940BC840E33215A42FB961 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D268462C75E4D43016357B3C7DFEBAD /* Pods-ExampleActivationCodeTextfieldTests.release.xcconfig */;
+			baseConfigurationReference = 8094C90CDA90BCF34F66A363FF40DA2C /* Pods-ExampleActivationCodeTextfieldTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A0BEC1BEF28FDC7BF8DF1D07A8081834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033A84E0ABD08F96FFD34741A84A1ED8 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -486,7 +606,7 @@
 		};
 		C2FF970AC6E2239D41304E95E23558E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 285B18F0DB58C64284616E90C44E552F /* Pods-ExampleActivationCodeTextfield.release.xcconfig */;
+			baseConfigurationReference = B08A2D65051CE3AE0DA7F1D84F7BECBB /* Pods-ExampleActivationCodeTextfield.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -579,6 +699,15 @@
 			buildConfigurations = (
 				7E072C5F613793171E2410ABFAA30F74 /* Debug */,
 				9E7E4E3A43940BC840E33215A42FB961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A401D326E3F680517259EA639B7FCB87 /* Build configuration list for PBXNativeTarget "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B547EB6EAD041C1C9D711D10ED30DF /* Debug */,
+				A0BEC1BEF28FDC7BF8DF1D07A8081834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -39,6 +39,16 @@
                ReferencedContainer = "container:ExampleActivationCodeTextfield.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C1ACB0E81E9916A500A62308"
+               BuildableName = "ExampleActivationCodeTextfieldUITests.xctest"
+               BlueprintName = "ExampleActivationCodeTextfieldUITests"
+               ReferencedContainer = "container:ExampleActivationCodeTextfield.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

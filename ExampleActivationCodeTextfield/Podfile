@@ -7,5 +7,9 @@ target 'ExampleActivationCodeTextfield' do
     target 'ExampleActivationCodeTextfieldTests' do
         inherit! :search_paths  # to add header search paths from target to test
     end
-
+    
+    target 'ExampleActivationCodeTextfieldUITests' do
+        pod 'SACodedTextField', :path => '../SACodedTextField.podspec' #Since UI tests are an entirely separate module from the app and are not run inside the app as logic tests are
+    end
+    
 end

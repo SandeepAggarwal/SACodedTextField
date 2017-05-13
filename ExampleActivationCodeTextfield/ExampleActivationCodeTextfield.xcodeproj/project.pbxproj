@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1126368CB627318BCE78EE7C /* libPods-ExampleActivationCodeTextfield.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCD8C34405A081A5B789D26 /* libPods-ExampleActivationCodeTextfield.a */; };
+		170ECA52C2B5CA8DEA88D7F4 /* libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E1E5D7DE79C6060377C535 /* libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a */; };
 		758175AB7296F5F976BE723F /* libPods-ExampleActivationCodeTextfieldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E625FB5F916D42C284445F /* libPods-ExampleActivationCodeTextfieldTests.a */; };
 		C1ABD7D21E7BC3E400B78198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ABD7D11E7BC3E400B78198 /* main.m */; };
 		C1ABD7D51E7BC3E400B78198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ABD7D41E7BC3E400B78198 /* AppDelegate.m */; };
@@ -16,6 +17,8 @@
 		C1ABD7DD1E7BC3E400B78198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1ABD7DC1E7BC3E400B78198 /* Assets.xcassets */; };
 		C1ABD7E01E7BC3E400B78198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ABD7DE1E7BC3E400B78198 /* LaunchScreen.storyboard */; };
 		C1ACB0DE1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ACB0DD1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.m */; };
+		C1ACB0EC1E9916A500A62308 /* ExampleActivationCodeTextfieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ACB0EB1E9916A500A62308 /* ExampleActivationCodeTextfieldUITests.m */; };
+		C1B9E4845816EBB405E5824D /* libPods-ExampleActivationCodeTextfieldUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1CE4DA892826CB0ADDA410 /* libPods-ExampleActivationCodeTextfieldUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +29,19 @@
 			remoteGlobalIDString = C1ABD7CC1E7BC3E400B78198;
 			remoteInfo = ExampleActivationCodeTextfield;
 		};
+		C1ACB0EE1E9916A500A62308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1ABD7C51E7BC3E300B78198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1ABD7CC1E7BC3E400B78198;
+			remoteInfo = ExampleActivationCodeTextfield;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EBB5366772823A431659C59 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests/Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51301995F256B9DE1D672719 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests/Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66E1E5D7DE79C6060377C535 /* libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCD8C34405A081A5B789D26 /* libPods-ExampleActivationCodeTextfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleActivationCodeTextfield.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8135FFF457C8C2A4061C20B1 /* Pods-ExampleActivationCodeTextfield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfield.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfield/Pods-ExampleActivationCodeTextfield.release.xcconfig"; sourceTree = "<group>"; };
 		913F6E06262DB1A863BEE339 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfield.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfield/Pods-ExampleActivationCodeTextfield.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,8 +59,14 @@
 		C1ACB0DB1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleActivationCodeTextfieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1ACB0DD1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleActivationCodeTextfieldTests.m; sourceTree = "<group>"; };
 		C1ACB0DF1E98F5A500A62308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1ACB0E91E9916A500A62308 /* ExampleActivationCodeTextfieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleActivationCodeTextfieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1ACB0EB1E9916A500A62308 /* ExampleActivationCodeTextfieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleActivationCodeTextfieldUITests.m; sourceTree = "<group>"; };
+		C1ACB0ED1E9916A500A62308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DDC6E7271EA9BAB97170CD /* Pods-ExampleActivationCodeTextfieldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfieldUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfieldUITests/Pods-ExampleActivationCodeTextfieldUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4976E87DF04D15934C4969E /* Pods-ExampleActivationCodeTextfieldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfieldUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfieldUITests/Pods-ExampleActivationCodeTextfieldUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ECE3FEDC3B4BE166569394B9 /* Pods-ExampleActivationCodeTextfieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleActivationCodeTextfieldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleActivationCodeTextfieldTests/Pods-ExampleActivationCodeTextfieldTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8E625FB5F916D42C284445F /* libPods-ExampleActivationCodeTextfieldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleActivationCodeTextfieldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1CE4DA892826CB0ADDA410 /* libPods-ExampleActivationCodeTextfieldUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleActivationCodeTextfieldUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +86,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1ACB0E61E9916A500A62308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B9E4845816EBB405E5824D /* libPods-ExampleActivationCodeTextfieldUITests.a in Frameworks */,
+				170ECA52C2B5CA8DEA88D7F4 /* libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,6 +103,8 @@
 			children = (
 				6CCD8C34405A081A5B789D26 /* libPods-ExampleActivationCodeTextfield.a */,
 				F8E625FB5F916D42C284445F /* libPods-ExampleActivationCodeTextfieldTests.a */,
+				FD1CE4DA892826CB0ADDA410 /* libPods-ExampleActivationCodeTextfieldUITests.a */,
+				66E1E5D7DE79C6060377C535 /* libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,6 +114,7 @@
 			children = (
 				C1ABD7CF1E7BC3E400B78198 /* ExampleActivationCodeTextfield */,
 				C1ACB0DC1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests */,
+				C1ACB0EA1E9916A500A62308 /* ExampleActivationCodeTextfieldUITests */,
 				C1ABD7CE1E7BC3E400B78198 /* Products */,
 				E7B9421963537B11A43BE610 /* Pods */,
 				9DEBEEB04EC26610F23E1A25 /* Frameworks */,
@@ -95,6 +126,7 @@
 			children = (
 				C1ABD7CD1E7BC3E400B78198 /* ExampleActivationCodeTextfield.app */,
 				C1ACB0DB1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.xctest */,
+				C1ACB0E91E9916A500A62308 /* ExampleActivationCodeTextfieldUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +164,15 @@
 			path = ExampleActivationCodeTextfieldTests;
 			sourceTree = "<group>";
 		};
+		C1ACB0EA1E9916A500A62308 /* ExampleActivationCodeTextfieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1ACB0EB1E9916A500A62308 /* ExampleActivationCodeTextfieldUITests.m */,
+				C1ACB0ED1E9916A500A62308 /* Info.plist */,
+			);
+			path = ExampleActivationCodeTextfieldUITests;
+			sourceTree = "<group>";
+		};
 		E7B9421963537B11A43BE610 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +180,10 @@
 				8135FFF457C8C2A4061C20B1 /* Pods-ExampleActivationCodeTextfield.release.xcconfig */,
 				AADEE3CC33E582584381C834 /* Pods-ExampleActivationCodeTextfieldTests.debug.xcconfig */,
 				ECE3FEDC3B4BE166569394B9 /* Pods-ExampleActivationCodeTextfieldTests.release.xcconfig */,
+				D1DDC6E7271EA9BAB97170CD /* Pods-ExampleActivationCodeTextfieldUITests.debug.xcconfig */,
+				D4976E87DF04D15934C4969E /* Pods-ExampleActivationCodeTextfieldUITests.release.xcconfig */,
+				0EBB5366772823A431659C59 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.debug.xcconfig */,
+				51301995F256B9DE1D672719 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -187,6 +232,27 @@
 			productReference = C1ACB0DB1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C1ACB0E81E9916A500A62308 /* ExampleActivationCodeTextfieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1ACB0F01E9916A500A62308 /* Build configuration list for PBXNativeTarget "ExampleActivationCodeTextfieldUITests" */;
+			buildPhases = (
+				886BAAFA10D46EB7D5812075 /* [CP] Check Pods Manifest.lock */,
+				C1ACB0E51E9916A500A62308 /* Sources */,
+				C1ACB0E61E9916A500A62308 /* Frameworks */,
+				C1ACB0E71E9916A500A62308 /* Resources */,
+				4127F01208FCA757B7CB3907 /* [CP] Embed Pods Frameworks */,
+				DBCA2F69B2594AAF4930A5CB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1ACB0EF1E9916A500A62308 /* PBXTargetDependency */,
+			);
+			name = ExampleActivationCodeTextfieldUITests;
+			productName = ExampleActivationCodeTextfieldUITests;
+			productReference = C1ACB0E91E9916A500A62308 /* ExampleActivationCodeTextfieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,6 +267,11 @@
 						ProvisioningStyle = Automatic;
 					};
 					C1ACB0DA1E98F5A500A62308 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1ABD7CC1E7BC3E400B78198;
+					};
+					C1ACB0E81E9916A500A62308 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C1ABD7CC1E7BC3E400B78198;
@@ -222,6 +293,7 @@
 			targets = (
 				C1ABD7CC1E7BC3E400B78198 /* ExampleActivationCodeTextfield */,
 				C1ACB0DA1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests */,
+				C1ACB0E81E9916A500A62308 /* ExampleActivationCodeTextfieldUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,6 +310,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C1ACB0D91E98F5A500A62308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1ACB0E71E9916A500A62308 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,6 +356,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		4127F01208FCA757B7CB3907 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests/Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		591DB472795439B031CEBF24 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,6 +399,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleActivationCodeTextfieldTests/Pods-ExampleActivationCodeTextfieldTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		886BAAFA10D46EB7D5812075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		C275FDDAB3790B59232AA4E8 /* [CP] Copy Pods Resources */ = {
@@ -337,6 +446,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		DBCA2F69B2594AAF4930A5CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests/Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -358,6 +482,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1ACB0E51E9916A500A62308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1ACB0EC1E9916A500A62308 /* ExampleActivationCodeTextfieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -365,6 +497,11 @@
 			isa = PBXTargetDependency;
 			target = C1ABD7CC1E7BC3E400B78198 /* ExampleActivationCodeTextfield */;
 			targetProxy = C1ACB0E01E98F5A500A62308 /* PBXContainerItemProxy */;
+		};
+		C1ACB0EF1E9916A500A62308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1ABD7CC1E7BC3E400B78198 /* ExampleActivationCodeTextfield */;
+			targetProxy = C1ACB0EE1E9916A500A62308 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -532,6 +669,30 @@
 			};
 			name = Release;
 		};
+		C1ACB0F11E9916A500A62308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBB5366772823A431659C59 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ExampleActivationCodeTextfieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SandeepAggarwal.ExampleActivationCodeTextfieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExampleActivationCodeTextfield;
+			};
+			name = Debug;
+		};
+		C1ACB0F21E9916A500A62308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51301995F256B9DE1D672719 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ExampleActivationCodeTextfieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SandeepAggarwal.ExampleActivationCodeTextfieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExampleActivationCodeTextfield;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -561,6 +722,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C1ACB0F01E9916A500A62308 /* Build configuration list for PBXNativeTarget "ExampleActivationCodeTextfieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1ACB0F11E9916A500A62308 /* Debug */,
+				C1ACB0F21E9916A500A62308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
