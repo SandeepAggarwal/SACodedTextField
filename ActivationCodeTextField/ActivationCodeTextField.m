@@ -14,6 +14,8 @@
 @property (nonatomic, strong) NSString* separator;
 @property (nonatomic, strong) NSString* placeholderString;
 
+@property (nonatomic, strong) NSMutableArray<UIAccessibilityElement *>* accessibleElements;
+
 @end
 
 @implementation ActivationCodeTextField
@@ -52,11 +54,7 @@
     self.customPlaceholder = @"_" ;
     self.maxCodeLength = 6;
     
-    self.isAccessibilityElement = NO; // so that its subviews can be accessible
-    
     UILabel *label = [UILabel new];
-    [label setIsAccessibilityElement:YES];
-    label.accessibilityIdentifier = @"ACTPlaceholderLabel";
     [label setTextColor:[UIColor blackColor]];
     self.label = label;
     [self addSubview:label];
@@ -78,6 +76,12 @@
     
     _separator = nil;
     [self updateLabel];
+}
+
+// so that its subviews can be accessible
+- (BOOL)isAccessibilityElement
+{
+    return NO;
 }
 
 #pragma mark - Public Methods
@@ -170,6 +174,20 @@
     return _separator;
 }
 
+- (NSArray *)accessibleElements
+{
+    if ( _accessibleElements != nil )
+    {
+        return _accessibleElements;
+    }
+    _accessibleElements = [[NSMutableArray alloc] init];
+    
+    UIAccessibilityElement* element = (UIAccessibilityElement*)self.label;
+    element.accessibilityIdentifier = @"ACTPlaceholderLabel";
+    [_accessibleElements addObject:element];
+    
+    return _accessibleElements;
+}
 
 #pragma mark - Private Methods
 
@@ -309,6 +327,23 @@
 - (NSString*)labelString:(NSString*)string
 {
     return [NSString stringWithFormat:@"%@%@",string,self.separator];
+}
+
+#pragma mark - <UIAccessibilityContainer>
+
+- (NSInteger)accessibilityElementCount
+{
+    return [[self accessibleElements] count];
+}
+
+- (id)accessibilityElementAtIndex:(NSInteger)index
+{
+    return [[self accessibleElements] objectAtIndex:index];
+}
+
+- (NSInteger)indexOfAccessibilityElement:(id)element
+{
+    return [[self accessibleElements] indexOfObject:element];
 }
 
 #pragma mark - dealloc
