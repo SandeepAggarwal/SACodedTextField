@@ -1,7 +1,8 @@
 SACodedTextField
 ===============
 
-
+![Build Status](https://travis-ci.org/SandeepAggarwal/SACodedTextField.svg?branch=master)
+[![codecov](https://codecov.io/gh/SandeepAggarwal/SACodedTextField/branch/master/graph/badge.svg)](https://codecov.io/gh/SandeepAggarwal/SACodedTextField)
 [![Platform](https://img.shields.io/cocoapods/p/SACodedTextField.svg?style=flat)](http://cocoadocs.org/docsets/SACodedTextField)
 ![Carthage compatible](https://img.shields.io/badge/carthage-compatible-green.svg)
 ![CocoaPods Compatible](https://img.shields.io/badge/cocoapods-compatible-green.svg)
