@@ -1,5 +1,5 @@
 PODS:
-  - SACodedTextField (0.1.1)
+  - SACodedTextField (0.1.2)
 
 DEPENDENCIES:
   - SACodedTextField (from `../SACodedTextField.podspec`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../SACodedTextField.podspec"
 
 SPEC CHECKSUMS:
-  SACodedTextField: 683187363030d1d4a93f462bcc763be862f08bb1
+  SACodedTextField: 34721594b0ac910de05b31d6625b274ae8d2e2d7
 
 PODFILE CHECKSUM: f1dadbb86f0493d393e5b291b632f255d828666b
 
