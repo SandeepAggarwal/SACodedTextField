@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "153F123D5CD8DA83DF79B31638D75B6A"
+               BuildableName = "libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a"
+               BlueprintName = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "C1ABD7CC1E7BC3E400B78198"
                BuildableName = "ExampleActivationCodeTextfield.app"
                BlueprintName = "ExampleActivationCodeTextfield"

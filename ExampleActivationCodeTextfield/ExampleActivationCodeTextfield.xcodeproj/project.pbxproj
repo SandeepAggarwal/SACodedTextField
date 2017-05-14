@@ -18,7 +18,6 @@
 		C1ABD7E01E7BC3E400B78198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ABD7DE1E7BC3E400B78198 /* LaunchScreen.storyboard */; };
 		C1ACB0DE1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ACB0DD1E98F5A500A62308 /* ExampleActivationCodeTextfieldTests.m */; };
 		C1ACB0EC1E9916A500A62308 /* ExampleActivationCodeTextfieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ACB0EB1E9916A500A62308 /* ExampleActivationCodeTextfieldUITests.m */; };
-		C1B9E4845816EBB405E5824D /* libPods-ExampleActivationCodeTextfieldUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1CE4DA892826CB0ADDA410 /* libPods-ExampleActivationCodeTextfieldUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +89,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1B9E4845816EBB405E5824D /* libPods-ExampleActivationCodeTextfieldUITests.a in Frameworks */,
 				170ECA52C2B5CA8DEA88D7F4 /* libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -730,6 +728,7 @@
 				C1ACB0F21E9916A500A62308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
