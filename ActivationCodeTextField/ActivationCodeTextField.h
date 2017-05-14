@@ -10,7 +10,7 @@
 @class ActivationCodeTextField;
 @protocol ActivationCodeTextFieldDelegate <NSObject>
 
-- (void)fillingCompleteForTextField:(ActivationCodeTextField*)textField;
+- (void)fillingCompleteForTextField:(ActivationCodeTextField*_Nonnull)textField;
 
 @end
 
@@ -28,14 +28,14 @@
  @abstract The placeholder visible until the text field is full. Defaults to '_'.
  
  */
-@property (nonatomic, strong) NSString* customPlaceholder;
+@property (nonatomic, strong, nullable) NSString* customPlaceholder;
 
 /**
  
  @abstract The delegate method fires when textField gets completely filled
  
  */
-@property (nonatomic,weak) id<ActivationCodeTextFieldDelegate> activationCodeTFDelegate;
+@property (nonatomic, weak, nullable) id<ActivationCodeTextFieldDelegate> activationCodeTFDelegate;
 
 /**
  
