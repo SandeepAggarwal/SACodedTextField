@@ -46,7 +46,7 @@
     NSString* minSpaceString = @"   ";
     for (NSInteger i = 1; i <= 6; i++)
     {
-        [outputString appendFormat:@"%@", [NSString stringWithFormat:@"%ld%@",i,minSpaceString]];
+        [outputString appendFormat:@"%@", [NSString stringWithFormat:@"%ld%@",(long)i,minSpaceString]];
     }
     
     XCTAssert([[[textField
@@ -70,7 +70,7 @@
     NSString* minSpaceString = @"   ";
     for (NSInteger i = 1; i <= 6; i++)
     {
-        [outputString appendFormat:@"%@", [NSString stringWithFormat:@"%ld%@",i,minSpaceString]];
+        [outputString appendFormat:@"%@", [NSString stringWithFormat:@"%ld%@",(long)i,minSpaceString]];
     }
     
     XCTAssert([[[textField
