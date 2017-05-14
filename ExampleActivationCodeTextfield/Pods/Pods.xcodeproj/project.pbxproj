@@ -58,17 +58,17 @@
 		922537CBA13D0E15866E2690BAB627DE /* Pods-ExampleActivationCodeTextfield-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleActivationCodeTextfield-acknowledgements.plist"; sourceTree = "<group>"; };
 		933C33A0E10D2942E2E3183E6EB16618 /* Pods-ExampleActivationCodeTextfieldTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleActivationCodeTextfieldTests-resources.sh"; sourceTree = "<group>"; };
 		9341C235E300554D77F350D4384C5272 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94E04303C421520DE3FA1397E72DA52A /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6AA05915132926B0C413A139FF76E0B /* SACodedTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SACodedTextField-dummy.m"; sourceTree = "<group>"; };
 		B08A2D65051CE3AE0DA7F1D84F7BECBB /* Pods-ExampleActivationCodeTextfield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfield.release.xcconfig"; sourceTree = "<group>"; };
-		B0FF85D3EFB9C4F6379F986012664759 /* libPods-ExampleActivationCodeTextfieldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleActivationCodeTextfieldTests.a"; path = "libPods-ExampleActivationCodeTextfieldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FF85D3EFB9C4F6379F986012664759 /* libPods-ExampleActivationCodeTextfieldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleActivationCodeTextfieldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3E71182D80FCA0ECAB88DF4B3DDDC1 /* Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests-dummy.m"; sourceTree = "<group>"; };
 		D4C2EB82740D71401FFF43728F39D5C0 /* ActivationCodeTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ActivationCodeTextField.m; sourceTree = "<group>"; };
-		DA4926FD29E7AC1A4F63CF77658AF9FD /* libSACodedTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSACodedTextField.a; path = libSACodedTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E549FEB4F2C9443B7FAA6F4068CAFB00 /* libPods-ExampleActivationCodeTextfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleActivationCodeTextfield.a"; path = "libPods-ExampleActivationCodeTextfield.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4926FD29E7AC1A4F63CF77658AF9FD /* libSACodedTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSACodedTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E549FEB4F2C9443B7FAA6F4068CAFB00 /* libPods-ExampleActivationCodeTextfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleActivationCodeTextfield.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE440CB9F5EA3BFBF658C2B022645B45 /* SACodedTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SACodedTextField.xcconfig; sourceTree = "<group>"; };
-		EE73111A7E422BD6E7915B834CFE312D /* libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a"; path = "libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE73111A7E422BD6E7915B834CFE312D /* libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleActivationCodeTextfield-ExampleActivationCodeTextfieldUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E790265012410E1F82E7BC9FB8E9C0 /* Pods-ExampleActivationCodeTextfield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleActivationCodeTextfield.debug.xcconfig"; sourceTree = "<group>"; };
 		FEE8B6D890FEE41604F78E9A0A365466 /* ActivationCodeTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ActivationCodeTextField.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,7 +157,6 @@
 				FEE8B6D890FEE41604F78E9A0A365466 /* ActivationCodeTextField.h */,
 				D4C2EB82740D71401FFF43728F39D5C0 /* ActivationCodeTextField.m */,
 			);
-			name = ActivationCodeTextField;
 			path = ActivationCodeTextField;
 			sourceTree = "<group>";
 		};
@@ -331,7 +330,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0830;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -419,15 +418,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -509,14 +512,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -638,7 +645,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SACodedTextField/SACodedTextField-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -661,7 +668,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SACodedTextField/SACodedTextField-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
